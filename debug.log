@@ -1,0 +1,1250 @@
+2025-06-28T08:46:43.041+1000 [INFO]  Terraform version: 1.12.2
+2025-06-28T08:46:43.042+1000 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2025-06-28T08:46:43.042+1000 [DEBUG] using github.com/hashicorp/hcl/v2 v2.23.1-0.20250203194505-ba0759438da2
+2025-06-28T08:46:43.042+1000 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2025-06-28T08:46:43.042+1000 [DEBUG] using github.com/zclconf/go-cty v1.16.2
+2025-06-28T08:46:43.042+1000 [INFO]  Go runtime version: go1.24.2
+2025-06-28T08:46:43.042+1000 [INFO]  CLI args: []string{"terraform", "plan"}
+2025-06-28T08:46:43.042+1000 [DEBUG] Attempting to open CLI config file: /home/abilash/.terraformrc
+2025-06-28T08:46:43.042+1000 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2025-06-28T08:46:43.042+1000 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2025-06-28T08:46:43.042+1000 [DEBUG] ignoring non-existing provider search directory /home/abilash/.terraform.d/plugins
+2025-06-28T08:46:43.042+1000 [DEBUG] ignoring non-existing provider search directory /home/abilash/.local/share/terraform/plugins
+2025-06-28T08:46:43.042+1000 [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2025-06-28T08:46:43.042+1000 [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2025-06-28T08:46:43.042+1000 [DEBUG] ignoring non-existing provider search directory /var/lib/snapd/desktop/terraform/plugins
+2025-06-28T08:46:43.046+1000 [INFO]  CLI command args: []string{"plan"}
+2025-06-28T08:46:44.076+1000 [DEBUG] checking for provisioner in "."
+2025-06-28T08:46:44.081+1000 [DEBUG] checking for provisioner in "/usr/bin"
+2025-06-28T08:46:44.086+1000 [INFO]  backend/local: starting Plan operation
+2025-06-28T08:46:44.094+1000 [DEBUG] created provider logger: level=debug
+2025-06-28T08:46:44.094+1000 [INFO]  provider: configuring client automatic mTLS
+2025-06-28T08:46:44.116+1000 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 args=[".terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5"]
+2025-06-28T08:46:44.116+1000 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 pid=11052
+2025-06-28T08:46:44.116+1000 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5
+2025-06-28T08:46:44.134+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "AAD B2C"..
+2025-06-28T08:46:44.134+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "AAD B2C"..
+2025-06-28T08:46:44.134+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "API Management"..
+2025-06-28T08:46:44.134+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "API Management"..
+2025-06-28T08:46:44.134+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "App Configuration"..
+2025-06-28T08:46:44.134+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "App Configuration"..
+2025-06-28T08:46:44.134+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Application Insights"..
+2025-06-28T08:46:44.134+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Application Insights"..
+2025-06-28T08:46:44.135+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "AppService"..
+2025-06-28T08:46:44.139+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "AppService"..
+2025-06-28T08:46:44.147+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ArcKubernetes"..
+2025-06-28T08:46:44.147+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ArcKubernetes"..
+2025-06-28T08:46:44.148+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Arc Resource Bridge"..
+2025-06-28T08:46:44.148+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Arc Resource Bridge"..
+2025-06-28T08:46:44.148+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Authorization"..
+2025-06-28T08:46:44.148+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Authorization"..
+2025-06-28T08:46:44.149+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automanage"..
+2025-06-28T08:46:44.149+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automanage"..
+2025-06-28T08:46:44.151+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automation"..
+2025-06-28T08:46:44.151+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automation"..
+2025-06-28T08:46:44.151+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Advisor"..
+2025-06-28T08:46:44.151+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Advisor"..
+2025-06-28T08:46:44.151+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Azure Stack HCI"..
+2025-06-28T08:46:44.151+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Azure Stack HCI"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Batch"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Batch"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Bot"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Bot"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Trusted Signing"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Trusted Signing"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cognitive Services"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cognitive Services"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Communication"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Communication"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Compute"..
+2025-06-28T08:46:44.152+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Compute"..
+2025-06-28T08:46:44.153+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Consumption"..
+2025-06-28T08:46:44.153+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Consumption"..
+2025-06-28T08:46:44.153+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Apps"..
+2025-06-28T08:46:44.153+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Apps"..
+2025-06-28T08:46:44.154+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CosmosDB"..
+2025-06-28T08:46:44.154+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CosmosDB"..
+2025-06-28T08:46:44.154+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cost Management"..
+2025-06-28T08:46:44.154+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cost Management"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dashboard"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dashboard"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Databox Edge"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Databox Edge"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataBricks"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataBricks"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Factory"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Factory"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataProtection"..
+2025-06-28T08:46:44.155+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataProtection"..
+2025-06-28T08:46:44.156+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Desktop Virtualization"..
+2025-06-28T08:46:44.156+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Desktop Virtualization"..
+2025-06-28T08:46:44.156+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Digital Twins"..
+2025-06-28T08:46:44.156+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Digital Twins"..
+2025-06-28T08:46:44.157+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DNS"..
+2025-06-28T08:46:44.157+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DNS"..
+2025-06-28T08:46:44.157+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DomainServices"..
+2025-06-28T08:46:44.157+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DomainServices"..
+2025-06-28T08:46:44.157+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dynatrace"..
+2025-06-28T08:46:44.157+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dynatrace"..
+2025-06-28T08:46:44.157+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ElasticSan"..
+2025-06-28T08:46:44.157+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ElasticSan"..
+2025-06-28T08:46:44.158+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventGrid"..
+2025-06-28T08:46:44.158+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventGrid"..
+2025-06-28T08:46:44.158+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventHub"..
+2025-06-28T08:46:44.158+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventHub"..
+2025-06-28T08:46:44.159+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ExtendedLocation"..
+2025-06-28T08:46:44.159+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ExtendedLocation"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Fabric"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Fabric"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Fluid Relay"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Fluid Relay"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Graph Services"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Graph Services"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Hybrid Compute"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Hybrid Compute"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Central"..
+2025-06-28T08:46:44.161+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Central"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Hub"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Hub"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "KeyVault"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "KeyVault"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Kusto"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Kusto"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Load Balancer"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Load Balancer"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "LoadTestService"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "LoadTestService"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Log Analytics"..
+2025-06-28T08:46:44.162+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Log Analytics"..
+2025-06-28T08:46:44.163+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Machine Learning"..
+2025-06-28T08:46:44.163+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Machine Learning"..
+2025-06-28T08:46:44.163+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maintenance"..
+2025-06-28T08:46:44.163+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maintenance"..
+2025-06-28T08:46:44.163+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed HSM"..
+2025-06-28T08:46:44.163+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed HSM"..
+2025-06-28T08:46:44.166+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mobile Network"..
+2025-06-28T08:46:44.166+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mobile Network"..
+2025-06-28T08:46:44.167+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mongo Cluster"..
+2025-06-28T08:46:44.167+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mongo Cluster"..
+2025-06-28T08:46:44.167+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Monitor"..
+2025-06-28T08:46:44.167+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Monitor"..
+2025-06-28T08:46:44.168+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.168+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.168+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.168+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.168+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "MySQL"..
+2025-06-28T08:46:44.169+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "MySQL"..
+2025-06-28T08:46:44.169+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "NetApp"..
+2025-06-28T08:46:44.169+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "NetApp"..
+2025-06-28T08:46:44.169+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network"..
+2025-06-28T08:46:44.169+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network"..
+2025-06-28T08:46:44.170+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network Function"..
+2025-06-28T08:46:44.170+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network Function"..
+2025-06-28T08:46:44.170+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "New Relic"..
+2025-06-28T08:46:44.170+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "New Relic"..
+2025-06-28T08:46:44.171+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Nginx"..
+2025-06-28T08:46:44.171+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Nginx"..
+2025-06-28T08:46:44.171+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Oracle"..
+2025-06-28T08:46:44.172+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Oracle"..
+2025-06-28T08:46:44.172+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Orbital"..
+2025-06-28T08:46:44.172+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Orbital"..
+2025-06-28T08:46:44.172+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Palo Alto"..
+2025-06-28T08:46:44.172+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Palo Alto"..
+2025-06-28T08:46:44.173+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Policy"..
+2025-06-28T08:46:44.173+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Policy"..
+2025-06-28T08:46:44.173+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PostgreSQL"..
+2025-06-28T08:46:44.173+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PostgreSQL"..
+2025-06-28T08:46:44.173+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Private DNS Resolver"..
+2025-06-28T08:46:44.173+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Private DNS Resolver"..
+2025-06-28T08:46:44.174+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Qumulo"..
+2025-06-28T08:46:44.174+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Qumulo"..
+2025-06-28T08:46:44.174+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Recovery Services"..
+2025-06-28T08:46:44.174+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Recovery Services"..
+2025-06-28T08:46:44.175+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Red Hat OpenShift"..
+2025-06-28T08:46:44.175+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Red Hat OpenShift"..
+2025-06-28T08:46:44.175+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis"..
+2025-06-28T08:46:44.175+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis"..
+2025-06-28T08:46:44.175+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Resources"..
+2025-06-28T08:46:44.175+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Resources"..
+2025-06-28T08:46:44.176+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Search"..
+2025-06-28T08:46:44.176+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Search"..
+2025-06-28T08:46:44.176+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Security Center"..
+2025-06-28T08:46:44.176+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Security Center"..
+2025-06-28T08:46:44.177+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Sentinel"..
+2025-06-28T08:46:44.177+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Sentinel"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceBus"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceBus"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceConnector"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceConnector"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Fabric Managed Clusters"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Fabric Managed Clusters"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Networking"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Networking"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "SignalR"..
+2025-06-28T08:46:44.178+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "SignalR"..
+2025-06-28T08:46:44.179+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Spring Cloud"..
+2025-06-28T08:46:44.179+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Spring Cloud"..
+2025-06-28T08:46:44.180+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage"..
+2025-06-28T08:46:44.180+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage"..
+2025-06-28T08:46:44.180+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Cache"..
+2025-06-28T08:46:44.180+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Cache"..
+2025-06-28T08:46:44.180+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Mover"..
+2025-06-28T08:46:44.180+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Mover"..
+2025-06-28T08:46:44.181+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Stream Analytics"..
+2025-06-28T08:46:44.181+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Stream Analytics"..
+2025-06-28T08:46:44.181+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Subscription"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Subscription"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "System Center Virtual Machine Manager"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "System Center Virtual Machine Manager"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VideoIndexer"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VideoIndexer"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VMware"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VMware"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Voice Services"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Voice Services"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Web"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Web"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Workloads"..
+2025-06-28T08:46:44.182+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Workloads"..
+2025-06-28T08:46:44.183+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ChaosStudio"..
+2025-06-28T08:46:44.183+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ChaosStudio"..
+2025-06-28T08:46:44.183+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Services"..
+2025-06-28T08:46:44.183+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Services"..
+2025-06-28T08:46:44.184+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dev Center"..
+2025-06-28T08:46:44.185+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dev Center"..
+2025-06-28T08:46:44.185+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ManagedIdentity"..
+2025-06-28T08:46:44.185+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ManagedIdentity"..
+2025-06-28T08:46:44.185+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Advisor"..
+2025-06-28T08:46:44.185+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Advisor"..
+2025-06-28T08:46:44.185+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Analysis Services"..
+2025-06-28T08:46:44.185+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Analysis Services"..
+2025-06-28T08:46:44.186+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "API Management"..
+2025-06-28T08:46:44.186+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "API Management"..
+2025-06-28T08:46:44.190+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "App Configuration"..
+2025-06-28T08:46:44.190+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "App Configuration"..
+2025-06-28T08:46:44.190+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Application Insights"..
+2025-06-28T08:46:44.191+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Application Insights"..
+2025-06-28T08:46:44.191+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ArcKubernetes"..
+2025-06-28T08:46:44.191+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ArcKubernetes"..
+2025-06-28T08:46:44.192+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Attestation"..
+2025-06-28T08:46:44.192+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Attestation"..
+2025-06-28T08:46:44.192+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Authorization"..
+2025-06-28T08:46:44.192+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Authorization"..
+2025-06-28T08:46:44.192+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automation"..
+2025-06-28T08:46:44.192+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automation"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Azure Stack HCI"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Azure Stack HCI"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Batch"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Batch"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Billing"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Billing"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Blueprints"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Blueprints"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Bot"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Bot"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CDN"..
+2025-06-28T08:46:44.195+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CDN"..
+2025-06-28T08:46:44.198+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cognitive Services"..
+2025-06-28T08:46:44.198+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cognitive Services"..
+2025-06-28T08:46:44.198+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Compute"..
+2025-06-28T08:46:44.199+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Compute"..
+2025-06-28T08:46:44.201+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Confidential Ledger"..
+2025-06-28T08:46:44.201+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Confidential Ledger"..
+2025-06-28T08:46:44.201+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Connections"..
+2025-06-28T08:46:44.201+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Connections"..
+2025-06-28T08:46:44.201+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Consumption"..
+2025-06-28T08:46:44.201+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Consumption"..
+2025-06-28T08:46:44.201+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Services"..
+2025-06-28T08:46:44.202+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Services"..
+2025-06-28T08:46:44.204+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CosmosDB"..
+2025-06-28T08:46:44.204+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CosmosDB"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Custom Providers"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Custom Providers"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dashboard"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dashboard"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Database Migration"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Database Migration"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Databox Edge"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Databox Edge"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataBricks"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataBricks"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Datadog"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Datadog"..
+2025-06-28T08:46:44.205+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Factory"..
+2025-06-28T08:46:44.206+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Factory"..
+2025-06-28T08:46:44.207+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataProtection"..
+2025-06-28T08:46:44.208+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataProtection"..
+2025-06-28T08:46:44.212+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Share"..
+2025-06-28T08:46:44.212+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Share"..
+2025-06-28T08:46:44.213+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Desktop Virtualization"..
+2025-06-28T08:46:44.213+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Desktop Virtualization"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dev Test"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dev Test"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Digital Twins"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Digital Twins"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DNS"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DNS"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DomainServices"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DomainServices"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Elastic"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Elastic"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventGrid"..
+2025-06-28T08:46:44.214+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventGrid"..
+2025-06-28T08:46:44.215+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventHub"..
+2025-06-28T08:46:44.215+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventHub"..
+2025-06-28T08:46:44.217+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Firewall"..
+2025-06-28T08:46:44.217+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Firewall"..
+2025-06-28T08:46:44.217+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "FrontDoor"..
+2025-06-28T08:46:44.217+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "FrontDoor"..
+2025-06-28T08:46:44.217+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "HDInsight"..
+2025-06-28T08:46:44.217+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "HDInsight"..
+2025-06-28T08:46:44.218+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Health Care"..
+2025-06-28T08:46:44.218+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Health Care"..
+2025-06-28T08:46:44.220+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Hardware Security Module"..
+2025-06-28T08:46:44.220+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Hardware Security Module"..
+2025-06-28T08:46:44.220+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Central"..
+2025-06-28T08:46:44.220+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Central"..
+2025-06-28T08:46:44.220+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Hub"..
+2025-06-28T08:46:44.220+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Hub"..
+2025-06-28T08:46:44.223+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "KeyVault"..
+2025-06-28T08:46:44.224+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "KeyVault"..
+2025-06-28T08:46:44.224+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Kusto"..
+2025-06-28T08:46:44.224+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Kusto"..
+2025-06-28T08:46:44.225+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Legacy"..
+2025-06-28T08:46:44.226+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Legacy"..
+2025-06-28T08:46:44.226+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Lighthouse"..
+2025-06-28T08:46:44.226+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Lighthouse"..
+2025-06-28T08:46:44.226+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Load Balancer"..
+2025-06-28T08:46:44.226+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Load Balancer"..
+2025-06-28T08:46:44.226+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Log Analytics"..
+2025-06-28T08:46:44.226+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Log Analytics"..
+2025-06-28T08:46:44.227+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Logic"..
+2025-06-28T08:46:44.227+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Logic"..
+2025-06-28T08:46:44.229+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Machine Learning"..
+2025-06-28T08:46:44.229+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Machine Learning"..
+2025-06-28T08:46:44.229+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maintenance"..
+2025-06-28T08:46:44.229+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maintenance"..
+2025-06-28T08:46:44.229+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed Applications"..
+2025-06-28T08:46:44.229+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed Applications"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed HSM"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed HSM"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ManagedIdentity"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ManagedIdentity"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Management Group"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Management Group"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maps"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maps"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mixed Reality"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mixed Reality"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Monitor"..
+2025-06-28T08:46:44.230+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Monitor"..
+2025-06-28T08:46:44.231+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.231+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.232+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.232+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.232+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "MySQL"..
+2025-06-28T08:46:44.232+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "MySQL"..
+2025-06-28T08:46:44.232+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "NetApp"..
+2025-06-28T08:46:44.232+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "NetApp"..
+2025-06-28T08:46:44.233+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network"..
+2025-06-28T08:46:44.236+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network"..
+2025-06-28T08:46:44.237+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Notification Hub"..
+2025-06-28T08:46:44.237+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Notification Hub"..
+2025-06-28T08:46:44.237+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Policy"..
+2025-06-28T08:46:44.237+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Policy"..
+2025-06-28T08:46:44.237+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Portal"..
+2025-06-28T08:46:44.237+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Portal"..
+2025-06-28T08:46:44.237+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PostgreSQL"..
+2025-06-28T08:46:44.237+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PostgreSQL"..
+2025-06-28T08:46:44.238+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PowerBI"..
+2025-06-28T08:46:44.238+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PowerBI"..
+2025-06-28T08:46:44.238+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Private DNS"..
+2025-06-28T08:46:44.238+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Private DNS"..
+2025-06-28T08:46:44.238+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Purview"..
+2025-06-28T08:46:44.238+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Purview"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Recovery Services"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Recovery Services"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis Enterprise"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis Enterprise"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Relay"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Relay"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Resources"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Resources"..
+2025-06-28T08:46:44.239+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Search"..
+2025-06-28T08:46:44.240+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Search"..
+2025-06-28T08:46:44.240+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Security Center"..
+2025-06-28T08:46:44.240+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Security Center"..
+2025-06-28T08:46:44.240+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Sentinel"..
+2025-06-28T08:46:44.240+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Sentinel"..
+2025-06-28T08:46:44.240+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceBus"..
+2025-06-28T08:46:44.241+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceBus"..
+2025-06-28T08:46:44.242+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Fabric"..
+2025-06-28T08:46:44.242+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Fabric"..
+2025-06-28T08:46:44.242+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "SignalR"..
+2025-06-28T08:46:44.242+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "SignalR"..
+2025-06-28T08:46:44.243+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Spring Cloud"..
+2025-06-28T08:46:44.243+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Spring Cloud"..
+2025-06-28T08:46:44.243+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage"..
+2025-06-28T08:46:44.243+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage"..
+2025-06-28T08:46:44.244+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Cache"..
+2025-06-28T08:46:44.244+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Cache"..
+2025-06-28T08:46:44.244+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Stream Analytics"..
+2025-06-28T08:46:44.244+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Stream Analytics"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Subscription"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Subscription"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Synapse"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Synapse"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Traffic Manager"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Traffic Manager"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VMware"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VMware"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Web"..
+2025-06-28T08:46:44.245+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Web"..
+2025-06-28T08:46:44.247+1000 [INFO]  provider.terraform-provider-azurerm_v4.34.0_x5: configuring server automatic mTLS: timestamp="2025-06-28T08:46:44.247+1000"
+2025-06-28T08:46:44.261+1000 [DEBUG] provider: using plugin: version=5
+2025-06-28T08:46:44.261+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: plugin address: address=/tmp/plugin3849277383 network=unix timestamp="2025-06-28T08:46:44.261+1000"
+2025-06-28T08:46:44.488+1000 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2025-06-28T08:46:44.509+1000 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 id=11052
+2025-06-28T08:46:44.509+1000 [DEBUG] provider: plugin exited
+2025-06-28T08:46:44.509+1000 [DEBUG] created provider logger: level=debug
+2025-06-28T08:46:44.509+1000 [INFO]  provider: configuring client automatic mTLS
+2025-06-28T08:46:44.514+1000 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.7.2/linux_amd64/terraform-provider-random_v3.7.2_x5 args=[".terraform/providers/registry.terraform.io/hashicorp/random/3.7.2/linux_amd64/terraform-provider-random_v3.7.2_x5"]
+2025-06-28T08:46:44.515+1000 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.7.2/linux_amd64/terraform-provider-random_v3.7.2_x5 pid=11067
+2025-06-28T08:46:44.515+1000 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/hashicorp/random/3.7.2/linux_amd64/terraform-provider-random_v3.7.2_x5
+2025-06-28T08:46:44.520+1000 [INFO]  provider.terraform-provider-random_v3.7.2_x5: configuring server automatic mTLS: timestamp="2025-06-28T08:46:44.520+1000"
+2025-06-28T08:46:44.534+1000 [DEBUG] provider.terraform-provider-random_v3.7.2_x5: plugin address: address=/tmp/plugin2784460349 network=unix timestamp="2025-06-28T08:46:44.534+1000"
+2025-06-28T08:46:44.534+1000 [DEBUG] provider: using plugin: version=5
+2025-06-28T08:46:44.546+1000 [DEBUG] No provider meta schema returned
+2025-06-28T08:46:44.547+1000 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2025-06-28T08:46:44.550+1000 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/random/3.7.2/linux_amd64/terraform-provider-random_v3.7.2_x5 id=11067
+2025-06-28T08:46:44.550+1000 [DEBUG] provider: plugin exited
+2025-06-28T08:46:44.552+1000 [DEBUG] Building and walking validate graph
+2025-06-28T08:46:44.559+1000 [DEBUG] ProviderTransformer: "data.azurerm_virtual_machine.vm_details" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2025-06-28T08:46:44.559+1000 [DEBUG] ProviderTransformer: "azurerm_monitor_metric_alert.cpu_alert" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2025-06-28T08:46:44.559+1000 [DEBUG] ProviderTransformer: "data.azurerm_resources.vms" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2025-06-28T08:46:44.559+1000 [DEBUG] pruning unused provider["registry.terraform.io/hashicorp/random"]
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/azurerm\"]" references: []
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "azurerm_monitor_metric_alert.cpu_alert" references: [data.azurerm_virtual_machine.vm_details local.tags (expand) var.frequency var.window_size var.cpu_threshold var.cpu_threshold]
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "data.azurerm_resources.vms" references: []
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "var.frequency" references: []
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "var.window_size" references: []
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "local.all_vms (expand)" references: [data.azurerm_resources.vms]
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "data.azurerm_virtual_machine.vm_details" references: [local.all_vms (expand)]
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "var.cpu_threshold" references: []
+2025-06-28T08:46:44.559+1000 [DEBUG] ReferenceTransformer: "local.tags (expand)" references: []
+2025-06-28T08:46:44.559+1000 [DEBUG] Starting graph walk: walkValidate
+2025-06-28T08:46:44.566+1000 [DEBUG] created provider logger: level=debug
+2025-06-28T08:46:44.566+1000 [INFO]  provider: configuring client automatic mTLS
+2025-06-28T08:46:44.571+1000 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 args=[".terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5"]
+2025-06-28T08:46:44.571+1000 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 pid=11076
+2025-06-28T08:46:44.571+1000 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5
+2025-06-28T08:46:44.587+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "AAD B2C"..
+2025-06-28T08:46:44.587+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "AAD B2C"..
+2025-06-28T08:46:44.587+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "API Management"..
+2025-06-28T08:46:44.587+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "API Management"..
+2025-06-28T08:46:44.587+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "App Configuration"..
+2025-06-28T08:46:44.587+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "App Configuration"..
+2025-06-28T08:46:44.588+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Application Insights"..
+2025-06-28T08:46:44.588+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Application Insights"..
+2025-06-28T08:46:44.588+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "AppService"..
+2025-06-28T08:46:44.592+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "AppService"..
+2025-06-28T08:46:44.598+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ArcKubernetes"..
+2025-06-28T08:46:44.599+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ArcKubernetes"..
+2025-06-28T08:46:44.599+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Arc Resource Bridge"..
+2025-06-28T08:46:44.599+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Arc Resource Bridge"..
+2025-06-28T08:46:44.599+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Authorization"..
+2025-06-28T08:46:44.600+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Authorization"..
+2025-06-28T08:46:44.600+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automanage"..
+2025-06-28T08:46:44.600+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automanage"..
+2025-06-28T08:46:44.600+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automation"..
+2025-06-28T08:46:44.601+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automation"..
+2025-06-28T08:46:44.602+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Advisor"..
+2025-06-28T08:46:44.602+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Advisor"..
+2025-06-28T08:46:44.602+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Azure Stack HCI"..
+2025-06-28T08:46:44.602+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Azure Stack HCI"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Batch"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Batch"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Bot"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Bot"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Trusted Signing"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Trusted Signing"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cognitive Services"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cognitive Services"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Communication"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Communication"..
+2025-06-28T08:46:44.603+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Compute"..
+2025-06-28T08:46:44.604+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Compute"..
+2025-06-28T08:46:44.604+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Consumption"..
+2025-06-28T08:46:44.604+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Consumption"..
+2025-06-28T08:46:44.604+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Apps"..
+2025-06-28T08:46:44.605+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Apps"..
+2025-06-28T08:46:44.605+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CosmosDB"..
+2025-06-28T08:46:44.605+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CosmosDB"..
+2025-06-28T08:46:44.606+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cost Management"..
+2025-06-28T08:46:44.606+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cost Management"..
+2025-06-28T08:46:44.606+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dashboard"..
+2025-06-28T08:46:44.606+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dashboard"..
+2025-06-28T08:46:44.606+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Databox Edge"..
+2025-06-28T08:46:44.606+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Databox Edge"..
+2025-06-28T08:46:44.607+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataBricks"..
+2025-06-28T08:46:44.607+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataBricks"..
+2025-06-28T08:46:44.607+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Factory"..
+2025-06-28T08:46:44.607+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Factory"..
+2025-06-28T08:46:44.607+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataProtection"..
+2025-06-28T08:46:44.607+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataProtection"..
+2025-06-28T08:46:44.608+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Desktop Virtualization"..
+2025-06-28T08:46:44.608+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Desktop Virtualization"..
+2025-06-28T08:46:44.608+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Digital Twins"..
+2025-06-28T08:46:44.608+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Digital Twins"..
+2025-06-28T08:46:44.608+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DNS"..
+2025-06-28T08:46:44.608+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DNS"..
+2025-06-28T08:46:44.608+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DomainServices"..
+2025-06-28T08:46:44.608+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DomainServices"..
+2025-06-28T08:46:44.609+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dynatrace"..
+2025-06-28T08:46:44.609+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dynatrace"..
+2025-06-28T08:46:44.609+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ElasticSan"..
+2025-06-28T08:46:44.609+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ElasticSan"..
+2025-06-28T08:46:44.609+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventGrid"..
+2025-06-28T08:46:44.609+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventGrid"..
+2025-06-28T08:46:44.609+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventHub"..
+2025-06-28T08:46:44.609+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventHub"..
+2025-06-28T08:46:44.610+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ExtendedLocation"..
+2025-06-28T08:46:44.610+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ExtendedLocation"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Fabric"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Fabric"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Fluid Relay"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Fluid Relay"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Graph Services"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Graph Services"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Hybrid Compute"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Hybrid Compute"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Central"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Central"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Hub"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Hub"..
+2025-06-28T08:46:44.611+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "KeyVault"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "KeyVault"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Kusto"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Kusto"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Load Balancer"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Load Balancer"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "LoadTestService"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "LoadTestService"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Log Analytics"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Log Analytics"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Machine Learning"..
+2025-06-28T08:46:44.612+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Machine Learning"..
+2025-06-28T08:46:44.613+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maintenance"..
+2025-06-28T08:46:44.613+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maintenance"..
+2025-06-28T08:46:44.613+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed HSM"..
+2025-06-28T08:46:44.613+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed HSM"..
+2025-06-28T08:46:44.613+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mobile Network"..
+2025-06-28T08:46:44.615+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mobile Network"..
+2025-06-28T08:46:44.616+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mongo Cluster"..
+2025-06-28T08:46:44.616+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mongo Cluster"..
+2025-06-28T08:46:44.616+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Monitor"..
+2025-06-28T08:46:44.616+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Monitor"..
+2025-06-28T08:46:44.617+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.617+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.617+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.617+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.618+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "MySQL"..
+2025-06-28T08:46:44.618+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "MySQL"..
+2025-06-28T08:46:44.618+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "NetApp"..
+2025-06-28T08:46:44.618+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "NetApp"..
+2025-06-28T08:46:44.618+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network"..
+2025-06-28T08:46:44.619+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network"..
+2025-06-28T08:46:44.620+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network Function"..
+2025-06-28T08:46:44.620+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network Function"..
+2025-06-28T08:46:44.620+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "New Relic"..
+2025-06-28T08:46:44.620+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "New Relic"..
+2025-06-28T08:46:44.620+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Nginx"..
+2025-06-28T08:46:44.620+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Nginx"..
+2025-06-28T08:46:44.620+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Oracle"..
+2025-06-28T08:46:44.621+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Oracle"..
+2025-06-28T08:46:44.621+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Orbital"..
+2025-06-28T08:46:44.621+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Orbital"..
+2025-06-28T08:46:44.621+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Palo Alto"..
+2025-06-28T08:46:44.621+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Palo Alto"..
+2025-06-28T08:46:44.622+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Policy"..
+2025-06-28T08:46:44.622+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Policy"..
+2025-06-28T08:46:44.622+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PostgreSQL"..
+2025-06-28T08:46:44.622+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PostgreSQL"..
+2025-06-28T08:46:44.623+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Private DNS Resolver"..
+2025-06-28T08:46:44.623+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Private DNS Resolver"..
+2025-06-28T08:46:44.623+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Qumulo"..
+2025-06-28T08:46:44.623+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Qumulo"..
+2025-06-28T08:46:44.623+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Recovery Services"..
+2025-06-28T08:46:44.624+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Recovery Services"..
+2025-06-28T08:46:44.625+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Red Hat OpenShift"..
+2025-06-28T08:46:44.625+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Red Hat OpenShift"..
+2025-06-28T08:46:44.625+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis"..
+2025-06-28T08:46:44.625+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis"..
+2025-06-28T08:46:44.625+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Resources"..
+2025-06-28T08:46:44.625+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Resources"..
+2025-06-28T08:46:44.626+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Search"..
+2025-06-28T08:46:44.626+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Search"..
+2025-06-28T08:46:44.626+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Security Center"..
+2025-06-28T08:46:44.626+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Security Center"..
+2025-06-28T08:46:44.626+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Sentinel"..
+2025-06-28T08:46:44.627+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Sentinel"..
+2025-06-28T08:46:44.628+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceBus"..
+2025-06-28T08:46:44.628+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceBus"..
+2025-06-28T08:46:44.628+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceConnector"..
+2025-06-28T08:46:44.628+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceConnector"..
+2025-06-28T08:46:44.628+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Fabric Managed Clusters"..
+2025-06-28T08:46:44.628+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Fabric Managed Clusters"..
+2025-06-28T08:46:44.628+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Networking"..
+2025-06-28T08:46:44.628+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Networking"..
+2025-06-28T08:46:44.629+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "SignalR"..
+2025-06-28T08:46:44.629+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "SignalR"..
+2025-06-28T08:46:44.629+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Spring Cloud"..
+2025-06-28T08:46:44.629+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Spring Cloud"..
+2025-06-28T08:46:44.630+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage"..
+2025-06-28T08:46:44.630+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage"..
+2025-06-28T08:46:44.630+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Cache"..
+2025-06-28T08:46:44.630+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Cache"..
+2025-06-28T08:46:44.630+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Mover"..
+2025-06-28T08:46:44.630+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Mover"..
+2025-06-28T08:46:44.631+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Stream Analytics"..
+2025-06-28T08:46:44.631+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Stream Analytics"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Subscription"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Subscription"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "System Center Virtual Machine Manager"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "System Center Virtual Machine Manager"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VideoIndexer"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VideoIndexer"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VMware"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VMware"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Voice Services"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Voice Services"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Web"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Web"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Workloads"..
+2025-06-28T08:46:44.632+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Workloads"..
+2025-06-28T08:46:44.633+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ChaosStudio"..
+2025-06-28T08:46:44.633+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ChaosStudio"..
+2025-06-28T08:46:44.633+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Services"..
+2025-06-28T08:46:44.633+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Services"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dev Center"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dev Center"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ManagedIdentity"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ManagedIdentity"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Advisor"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Advisor"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Analysis Services"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Analysis Services"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "API Management"..
+2025-06-28T08:46:44.635+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "API Management"..
+2025-06-28T08:46:44.638+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "App Configuration"..
+2025-06-28T08:46:44.639+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "App Configuration"..
+2025-06-28T08:46:44.639+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Application Insights"..
+2025-06-28T08:46:44.639+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Application Insights"..
+2025-06-28T08:46:44.639+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ArcKubernetes"..
+2025-06-28T08:46:44.639+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ArcKubernetes"..
+2025-06-28T08:46:44.640+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Attestation"..
+2025-06-28T08:46:44.640+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Attestation"..
+2025-06-28T08:46:44.640+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Authorization"..
+2025-06-28T08:46:44.640+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Authorization"..
+2025-06-28T08:46:44.640+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automation"..
+2025-06-28T08:46:44.640+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automation"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Azure Stack HCI"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Azure Stack HCI"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Batch"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Batch"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Billing"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Billing"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Blueprints"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Blueprints"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Bot"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Bot"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CDN"..
+2025-06-28T08:46:44.644+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CDN"..
+2025-06-28T08:46:44.647+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cognitive Services"..
+2025-06-28T08:46:44.647+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cognitive Services"..
+2025-06-28T08:46:44.647+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Compute"..
+2025-06-28T08:46:44.648+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Compute"..
+2025-06-28T08:46:44.649+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Confidential Ledger"..
+2025-06-28T08:46:44.649+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Confidential Ledger"..
+2025-06-28T08:46:44.649+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Connections"..
+2025-06-28T08:46:44.649+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Connections"..
+2025-06-28T08:46:44.649+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Consumption"..
+2025-06-28T08:46:44.649+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Consumption"..
+2025-06-28T08:46:44.649+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Services"..
+2025-06-28T08:46:44.649+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Services"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CosmosDB"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CosmosDB"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Custom Providers"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Custom Providers"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dashboard"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dashboard"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Database Migration"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Database Migration"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Databox Edge"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Databox Edge"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataBricks"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataBricks"..
+2025-06-28T08:46:44.651+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Datadog"..
+2025-06-28T08:46:44.652+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Datadog"..
+2025-06-28T08:46:44.652+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Factory"..
+2025-06-28T08:46:44.652+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Factory"..
+2025-06-28T08:46:44.652+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataProtection"..
+2025-06-28T08:46:44.652+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataProtection"..
+2025-06-28T08:46:44.657+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Share"..
+2025-06-28T08:46:44.658+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Share"..
+2025-06-28T08:46:44.659+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Desktop Virtualization"..
+2025-06-28T08:46:44.659+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Desktop Virtualization"..
+2025-06-28T08:46:44.660+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dev Test"..
+2025-06-28T08:46:44.660+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dev Test"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Digital Twins"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Digital Twins"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DNS"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DNS"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DomainServices"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DomainServices"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Elastic"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Elastic"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventGrid"..
+2025-06-28T08:46:44.661+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventGrid"..
+2025-06-28T08:46:44.662+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventHub"..
+2025-06-28T08:46:44.663+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventHub"..
+2025-06-28T08:46:44.664+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Firewall"..
+2025-06-28T08:46:44.664+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Firewall"..
+2025-06-28T08:46:44.664+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "FrontDoor"..
+2025-06-28T08:46:44.664+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "FrontDoor"..
+2025-06-28T08:46:44.665+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "HDInsight"..
+2025-06-28T08:46:44.665+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "HDInsight"..
+2025-06-28T08:46:44.665+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Health Care"..
+2025-06-28T08:46:44.666+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Health Care"..
+2025-06-28T08:46:44.666+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Hardware Security Module"..
+2025-06-28T08:46:44.666+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Hardware Security Module"..
+2025-06-28T08:46:44.666+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Central"..
+2025-06-28T08:46:44.666+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Central"..
+2025-06-28T08:46:44.666+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Hub"..
+2025-06-28T08:46:44.666+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Hub"..
+2025-06-28T08:46:44.668+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "KeyVault"..
+2025-06-28T08:46:44.668+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "KeyVault"..
+2025-06-28T08:46:44.669+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Kusto"..
+2025-06-28T08:46:44.669+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Kusto"..
+2025-06-28T08:46:44.669+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Legacy"..
+2025-06-28T08:46:44.669+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Legacy"..
+2025-06-28T08:46:44.669+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Lighthouse"..
+2025-06-28T08:46:44.669+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Lighthouse"..
+2025-06-28T08:46:44.669+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Load Balancer"..
+2025-06-28T08:46:44.669+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Load Balancer"..
+2025-06-28T08:46:44.670+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Log Analytics"..
+2025-06-28T08:46:44.670+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Log Analytics"..
+2025-06-28T08:46:44.670+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Logic"..
+2025-06-28T08:46:44.670+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Logic"..
+2025-06-28T08:46:44.672+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Machine Learning"..
+2025-06-28T08:46:44.672+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Machine Learning"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maintenance"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maintenance"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed Applications"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed Applications"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed HSM"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed HSM"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ManagedIdentity"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ManagedIdentity"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Management Group"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Management Group"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maps"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maps"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mixed Reality"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mixed Reality"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Monitor"..
+2025-06-28T08:46:44.673+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Monitor"..
+2025-06-28T08:46:44.675+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.675+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.676+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.676+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.676+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "MySQL"..
+2025-06-28T08:46:44.676+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "MySQL"..
+2025-06-28T08:46:44.676+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "NetApp"..
+2025-06-28T08:46:44.676+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "NetApp"..
+2025-06-28T08:46:44.679+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network"..
+2025-06-28T08:46:44.679+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network"..
+2025-06-28T08:46:44.680+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Notification Hub"..
+2025-06-28T08:46:44.680+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Notification Hub"..
+2025-06-28T08:46:44.680+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Policy"..
+2025-06-28T08:46:44.680+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Policy"..
+2025-06-28T08:46:44.680+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Portal"..
+2025-06-28T08:46:44.680+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Portal"..
+2025-06-28T08:46:44.680+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PostgreSQL"..
+2025-06-28T08:46:44.680+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PostgreSQL"..
+2025-06-28T08:46:44.681+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PowerBI"..
+2025-06-28T08:46:44.681+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PowerBI"..
+2025-06-28T08:46:44.681+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Private DNS"..
+2025-06-28T08:46:44.681+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Private DNS"..
+2025-06-28T08:46:44.681+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Purview"..
+2025-06-28T08:46:44.681+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Purview"..
+2025-06-28T08:46:44.681+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Recovery Services"..
+2025-06-28T08:46:44.682+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Recovery Services"..
+2025-06-28T08:46:44.682+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis"..
+2025-06-28T08:46:44.682+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis Enterprise"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis Enterprise"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Relay"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Relay"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Resources"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Resources"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Search"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Search"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Security Center"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Security Center"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Sentinel"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Sentinel"..
+2025-06-28T08:46:44.683+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceBus"..
+2025-06-28T08:46:44.684+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceBus"..
+2025-06-28T08:46:44.685+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Fabric"..
+2025-06-28T08:46:44.685+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Fabric"..
+2025-06-28T08:46:44.685+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "SignalR"..
+2025-06-28T08:46:44.685+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "SignalR"..
+2025-06-28T08:46:44.685+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Spring Cloud"..
+2025-06-28T08:46:44.685+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Spring Cloud"..
+2025-06-28T08:46:44.686+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage"..
+2025-06-28T08:46:44.686+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage"..
+2025-06-28T08:46:44.686+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Cache"..
+2025-06-28T08:46:44.686+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Cache"..
+2025-06-28T08:46:44.686+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Stream Analytics"..
+2025-06-28T08:46:44.686+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Stream Analytics"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Subscription"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Subscription"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Synapse"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Synapse"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Traffic Manager"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Traffic Manager"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VMware"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VMware"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Web"..
+2025-06-28T08:46:44.687+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Web"..
+2025-06-28T08:46:44.689+1000 [INFO]  provider.terraform-provider-azurerm_v4.34.0_x5: configuring server automatic mTLS: timestamp="2025-06-28T08:46:44.688+1000"
+2025-06-28T08:46:44.705+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: plugin address: address=/tmp/plugin2317295041 network=unix timestamp="2025-06-28T08:46:44.704+1000"
+2025-06-28T08:46:44.705+1000 [DEBUG] provider: using plugin: version=5
+2025-06-28T08:46:44.756+1000 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2025-06-28T08:46:44.764+1000 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 id=11076
+2025-06-28T08:46:44.764+1000 [DEBUG] provider: plugin exited
+2025-06-28T08:46:44.765+1000 [INFO]  backend/local: plan calling Plan
+2025-06-28T08:46:44.765+1000 [DEBUG] Building and walking plan graph for NormalMode
+2025-06-28T08:46:44.768+1000 [DEBUG] ProviderTransformer: "azurerm_monitor_metric_alert.cpu_alert (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2025-06-28T08:46:44.768+1000 [DEBUG] ProviderTransformer: "data.azurerm_resources.vms (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2025-06-28T08:46:44.768+1000 [DEBUG] ProviderTransformer: "data.azurerm_virtual_machine.vm_details (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/hashicorp/azurerm"]
+2025-06-28T08:46:44.768+1000 [DEBUG] pruning unused provider["registry.terraform.io/hashicorp/random"]
+2025-06-28T08:46:44.768+1000 [DEBUG] ReferenceTransformer: "var.cpu_threshold" references: []
+2025-06-28T08:46:44.768+1000 [DEBUG] ReferenceTransformer: "var.frequency" references: []
+2025-06-28T08:46:44.768+1000 [DEBUG] ReferenceTransformer: "local.tags (expand)" references: []
+2025-06-28T08:46:44.768+1000 [DEBUG] ReferenceTransformer: "data.azurerm_virtual_machine.vm_details (expand)" references: [local.all_vms (expand)]
+2025-06-28T08:46:44.768+1000 [DEBUG] ReferenceTransformer: "var.window_size" references: []
+2025-06-28T08:46:44.769+1000 [DEBUG] ReferenceTransformer: "local.all_vms (expand)" references: [data.azurerm_resources.vms (expand)]
+2025-06-28T08:46:44.769+1000 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/azurerm\"]" references: []
+2025-06-28T08:46:44.769+1000 [DEBUG] ReferenceTransformer: "azurerm_monitor_metric_alert.cpu_alert (expand)" references: [data.azurerm_virtual_machine.vm_details (expand) local.tags (expand) var.window_size var.cpu_threshold var.frequency var.cpu_threshold]
+2025-06-28T08:46:44.769+1000 [DEBUG] ReferenceTransformer: "data.azurerm_resources.vms (expand)" references: []
+2025-06-28T08:46:44.769+1000 [DEBUG] Starting graph walk: walkPlan
+2025-06-28T08:46:44.770+1000 [DEBUG] created provider logger: level=debug
+2025-06-28T08:46:44.770+1000 [INFO]  provider: configuring client automatic mTLS
+2025-06-28T08:46:44.776+1000 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 args=[".terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5"]
+2025-06-28T08:46:44.777+1000 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 pid=11093
+2025-06-28T08:46:44.777+1000 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5
+2025-06-28T08:46:44.795+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "AAD B2C"..
+2025-06-28T08:46:44.796+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "AAD B2C"..
+2025-06-28T08:46:44.796+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "API Management"..
+2025-06-28T08:46:44.796+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "API Management"..
+2025-06-28T08:46:44.796+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "App Configuration"..
+2025-06-28T08:46:44.796+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "App Configuration"..
+2025-06-28T08:46:44.796+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Application Insights"..
+2025-06-28T08:46:44.796+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Application Insights"..
+2025-06-28T08:46:44.796+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "AppService"..
+2025-06-28T08:46:44.799+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "AppService"..
+2025-06-28T08:46:44.807+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ArcKubernetes"..
+2025-06-28T08:46:44.807+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ArcKubernetes"..
+2025-06-28T08:46:44.809+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Arc Resource Bridge"..
+2025-06-28T08:46:44.809+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Arc Resource Bridge"..
+2025-06-28T08:46:44.809+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Authorization"..
+2025-06-28T08:46:44.810+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Authorization"..
+2025-06-28T08:46:44.811+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automanage"..
+2025-06-28T08:46:44.811+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automanage"..
+2025-06-28T08:46:44.811+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automation"..
+2025-06-28T08:46:44.811+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automation"..
+2025-06-28T08:46:44.811+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Advisor"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Advisor"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Azure Stack HCI"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Azure Stack HCI"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Batch"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Batch"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Bot"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Bot"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Trusted Signing"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Trusted Signing"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cognitive Services"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cognitive Services"..
+2025-06-28T08:46:44.812+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Communication"..
+2025-06-28T08:46:44.813+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Communication"..
+2025-06-28T08:46:44.813+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Compute"..
+2025-06-28T08:46:44.813+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Compute"..
+2025-06-28T08:46:44.813+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Consumption"..
+2025-06-28T08:46:44.813+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Consumption"..
+2025-06-28T08:46:44.814+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Apps"..
+2025-06-28T08:46:44.814+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Apps"..
+2025-06-28T08:46:44.815+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CosmosDB"..
+2025-06-28T08:46:44.815+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CosmosDB"..
+2025-06-28T08:46:44.815+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cost Management"..
+2025-06-28T08:46:44.815+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cost Management"..
+2025-06-28T08:46:44.815+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dashboard"..
+2025-06-28T08:46:44.815+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dashboard"..
+2025-06-28T08:46:44.816+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Databox Edge"..
+2025-06-28T08:46:44.816+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Databox Edge"..
+2025-06-28T08:46:44.816+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataBricks"..
+2025-06-28T08:46:44.816+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataBricks"..
+2025-06-28T08:46:44.816+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Factory"..
+2025-06-28T08:46:44.816+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Factory"..
+2025-06-28T08:46:44.816+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataProtection"..
+2025-06-28T08:46:44.816+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataProtection"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Desktop Virtualization"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Desktop Virtualization"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Digital Twins"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Digital Twins"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DNS"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DNS"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DomainServices"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DomainServices"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dynatrace"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dynatrace"..
+2025-06-28T08:46:44.817+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ElasticSan"..
+2025-06-28T08:46:44.818+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ElasticSan"..
+2025-06-28T08:46:44.818+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventGrid"..
+2025-06-28T08:46:44.818+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventGrid"..
+2025-06-28T08:46:44.818+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventHub"..
+2025-06-28T08:46:44.818+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventHub"..
+2025-06-28T08:46:44.819+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ExtendedLocation"..
+2025-06-28T08:46:44.819+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ExtendedLocation"..
+2025-06-28T08:46:44.820+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Fabric"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Fabric"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Fluid Relay"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Fluid Relay"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Graph Services"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Graph Services"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Hybrid Compute"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Hybrid Compute"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Central"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Central"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Hub"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Hub"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "KeyVault"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "KeyVault"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Kusto"..
+2025-06-28T08:46:44.821+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Kusto"..
+2025-06-28T08:46:44.822+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Load Balancer"..
+2025-06-28T08:46:44.822+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Load Balancer"..
+2025-06-28T08:46:44.822+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "LoadTestService"..
+2025-06-28T08:46:44.822+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "LoadTestService"..
+2025-06-28T08:46:44.822+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Log Analytics"..
+2025-06-28T08:46:44.822+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Log Analytics"..
+2025-06-28T08:46:44.822+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Machine Learning"..
+2025-06-28T08:46:44.822+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Machine Learning"..
+2025-06-28T08:46:44.823+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maintenance"..
+2025-06-28T08:46:44.823+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maintenance"..
+2025-06-28T08:46:44.823+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed HSM"..
+2025-06-28T08:46:44.823+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed HSM"..
+2025-06-28T08:46:44.824+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mobile Network"..
+2025-06-28T08:46:44.824+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mobile Network"..
+2025-06-28T08:46:44.825+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mongo Cluster"..
+2025-06-28T08:46:44.825+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mongo Cluster"..
+2025-06-28T08:46:44.825+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Monitor"..
+2025-06-28T08:46:44.826+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Monitor"..
+2025-06-28T08:46:44.826+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.826+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.827+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.827+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.827+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "MySQL"..
+2025-06-28T08:46:44.827+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "MySQL"..
+2025-06-28T08:46:44.827+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "NetApp"..
+2025-06-28T08:46:44.828+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "NetApp"..
+2025-06-28T08:46:44.828+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network"..
+2025-06-28T08:46:44.828+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network"..
+2025-06-28T08:46:44.830+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network Function"..
+2025-06-28T08:46:44.830+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network Function"..
+2025-06-28T08:46:44.830+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "New Relic"..
+2025-06-28T08:46:44.830+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "New Relic"..
+2025-06-28T08:46:44.830+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Nginx"..
+2025-06-28T08:46:44.830+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Nginx"..
+2025-06-28T08:46:44.830+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Oracle"..
+2025-06-28T08:46:44.831+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Oracle"..
+2025-06-28T08:46:44.831+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Orbital"..
+2025-06-28T08:46:44.831+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Orbital"..
+2025-06-28T08:46:44.831+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Palo Alto"..
+2025-06-28T08:46:44.831+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Palo Alto"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Policy"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Policy"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PostgreSQL"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PostgreSQL"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Private DNS Resolver"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Private DNS Resolver"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Qumulo"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Qumulo"..
+2025-06-28T08:46:44.832+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Recovery Services"..
+2025-06-28T08:46:44.833+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Recovery Services"..
+2025-06-28T08:46:44.833+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Red Hat OpenShift"..
+2025-06-28T08:46:44.833+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Red Hat OpenShift"..
+2025-06-28T08:46:44.833+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis"..
+2025-06-28T08:46:44.833+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis"..
+2025-06-28T08:46:44.833+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Resources"..
+2025-06-28T08:46:44.833+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Resources"..
+2025-06-28T08:46:44.834+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Search"..
+2025-06-28T08:46:44.834+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Search"..
+2025-06-28T08:46:44.834+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Security Center"..
+2025-06-28T08:46:44.834+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Security Center"..
+2025-06-28T08:46:44.834+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Sentinel"..
+2025-06-28T08:46:44.834+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Sentinel"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceBus"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceBus"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceConnector"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceConnector"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Fabric Managed Clusters"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Fabric Managed Clusters"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Networking"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Networking"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "SignalR"..
+2025-06-28T08:46:44.835+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "SignalR"..
+2025-06-28T08:46:44.836+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Spring Cloud"..
+2025-06-28T08:46:44.836+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Spring Cloud"..
+2025-06-28T08:46:44.838+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage"..
+2025-06-28T08:46:44.838+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage"..
+2025-06-28T08:46:44.838+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Cache"..
+2025-06-28T08:46:44.838+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Cache"..
+2025-06-28T08:46:44.838+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Mover"..
+2025-06-28T08:46:44.838+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Mover"..
+2025-06-28T08:46:44.839+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Stream Analytics"..
+2025-06-28T08:46:44.839+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Stream Analytics"..
+2025-06-28T08:46:44.839+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Subscription"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Subscription"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "System Center Virtual Machine Manager"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "System Center Virtual Machine Manager"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VideoIndexer"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VideoIndexer"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VMware"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VMware"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Voice Services"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Voice Services"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Web"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Web"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Workloads"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Workloads"..
+2025-06-28T08:46:44.840+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ChaosStudio"..
+2025-06-28T08:46:44.841+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ChaosStudio"..
+2025-06-28T08:46:44.841+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Services"..
+2025-06-28T08:46:44.841+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Services"..
+2025-06-28T08:46:44.842+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dev Center"..
+2025-06-28T08:46:44.842+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dev Center"..
+2025-06-28T08:46:44.843+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ManagedIdentity"..
+2025-06-28T08:46:44.843+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ManagedIdentity"..
+2025-06-28T08:46:44.843+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Advisor"..
+2025-06-28T08:46:44.843+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Advisor"..
+2025-06-28T08:46:44.843+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Analysis Services"..
+2025-06-28T08:46:44.843+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Analysis Services"..
+2025-06-28T08:46:44.843+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "API Management"..
+2025-06-28T08:46:44.843+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "API Management"..
+2025-06-28T08:46:44.844+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "App Configuration"..
+2025-06-28T08:46:44.844+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "App Configuration"..
+2025-06-28T08:46:44.844+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Application Insights"..
+2025-06-28T08:46:44.844+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Application Insights"..
+2025-06-28T08:46:44.844+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ArcKubernetes"..
+2025-06-28T08:46:44.844+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ArcKubernetes"..
+2025-06-28T08:46:44.845+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Attestation"..
+2025-06-28T08:46:44.845+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Attestation"..
+2025-06-28T08:46:44.845+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Authorization"..
+2025-06-28T08:46:44.845+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Authorization"..
+2025-06-28T08:46:44.845+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Automation"..
+2025-06-28T08:46:44.845+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Automation"..
+2025-06-28T08:46:44.847+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Azure Stack HCI"..
+2025-06-28T08:46:44.847+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Azure Stack HCI"..
+2025-06-28T08:46:44.847+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Batch"..
+2025-06-28T08:46:44.847+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Batch"..
+2025-06-28T08:46:44.848+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Billing"..
+2025-06-28T08:46:44.848+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Billing"..
+2025-06-28T08:46:44.848+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Blueprints"..
+2025-06-28T08:46:44.848+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Blueprints"..
+2025-06-28T08:46:44.848+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Bot"..
+2025-06-28T08:46:44.848+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Bot"..
+2025-06-28T08:46:44.848+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CDN"..
+2025-06-28T08:46:44.848+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CDN"..
+2025-06-28T08:46:44.850+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Cognitive Services"..
+2025-06-28T08:46:44.850+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Cognitive Services"..
+2025-06-28T08:46:44.850+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Compute"..
+2025-06-28T08:46:44.852+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Compute"..
+2025-06-28T08:46:44.854+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Confidential Ledger"..
+2025-06-28T08:46:44.854+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Confidential Ledger"..
+2025-06-28T08:46:44.854+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Connections"..
+2025-06-28T08:46:44.854+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Connections"..
+2025-06-28T08:46:44.854+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Consumption"..
+2025-06-28T08:46:44.854+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Consumption"..
+2025-06-28T08:46:44.854+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Container Services"..
+2025-06-28T08:46:44.854+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Container Services"..
+2025-06-28T08:46:44.855+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "CosmosDB"..
+2025-06-28T08:46:44.855+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "CosmosDB"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Custom Providers"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Custom Providers"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dashboard"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dashboard"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Database Migration"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Database Migration"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Databox Edge"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Databox Edge"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataBricks"..
+2025-06-28T08:46:44.856+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataBricks"..
+2025-06-28T08:46:44.857+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Datadog"..
+2025-06-28T08:46:44.857+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Datadog"..
+2025-06-28T08:46:44.857+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Factory"..
+2025-06-28T08:46:44.857+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Factory"..
+2025-06-28T08:46:44.858+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DataProtection"..
+2025-06-28T08:46:44.858+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DataProtection"..
+2025-06-28T08:46:44.859+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Data Share"..
+2025-06-28T08:46:44.860+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Data Share"..
+2025-06-28T08:46:44.861+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Desktop Virtualization"..
+2025-06-28T08:46:44.861+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Desktop Virtualization"..
+2025-06-28T08:46:44.861+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Dev Test"..
+2025-06-28T08:46:44.861+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Dev Test"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Digital Twins"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Digital Twins"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DNS"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DNS"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "DomainServices"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "DomainServices"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Elastic"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Elastic"..
+2025-06-28T08:46:44.862+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventGrid"..
+2025-06-28T08:46:44.863+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventGrid"..
+2025-06-28T08:46:44.864+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "EventHub"..
+2025-06-28T08:46:44.864+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "EventHub"..
+2025-06-28T08:46:44.865+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Firewall"..
+2025-06-28T08:46:44.866+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Firewall"..
+2025-06-28T08:46:44.866+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "FrontDoor"..
+2025-06-28T08:46:44.866+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "FrontDoor"..
+2025-06-28T08:46:44.866+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "HDInsight"..
+2025-06-28T08:46:44.866+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "HDInsight"..
+2025-06-28T08:46:44.867+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Health Care"..
+2025-06-28T08:46:44.867+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Health Care"..
+2025-06-28T08:46:44.868+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Hardware Security Module"..
+2025-06-28T08:46:44.868+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Hardware Security Module"..
+2025-06-28T08:46:44.868+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Central"..
+2025-06-28T08:46:44.868+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Central"..
+2025-06-28T08:46:44.868+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "IoT Hub"..
+2025-06-28T08:46:44.868+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "IoT Hub"..
+2025-06-28T08:46:44.873+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "KeyVault"..
+2025-06-28T08:46:44.873+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "KeyVault"..
+2025-06-28T08:46:44.873+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Kusto"..
+2025-06-28T08:46:44.873+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Kusto"..
+2025-06-28T08:46:44.874+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Legacy"..
+2025-06-28T08:46:44.874+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Legacy"..
+2025-06-28T08:46:44.874+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Lighthouse"..
+2025-06-28T08:46:44.874+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Lighthouse"..
+2025-06-28T08:46:44.874+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Load Balancer"..
+2025-06-28T08:46:44.874+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Load Balancer"..
+2025-06-28T08:46:44.874+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Log Analytics"..
+2025-06-28T08:46:44.874+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Log Analytics"..
+2025-06-28T08:46:44.875+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Logic"..
+2025-06-28T08:46:44.875+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Logic"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Machine Learning"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Machine Learning"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maintenance"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maintenance"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed Applications"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed Applications"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Managed HSM"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Managed HSM"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ManagedIdentity"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ManagedIdentity"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Management Group"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Management Group"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Maps"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Maps"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Mixed Reality"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Mixed Reality"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Monitor"..
+2025-06-28T08:46:44.876+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Monitor"..
+2025-06-28T08:46:44.877+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.877+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server / Azure SQL"..
+2025-06-28T08:46:44.877+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.877+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Microsoft SQL Server Managed Instances"..
+2025-06-28T08:46:44.877+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "MySQL"..
+2025-06-28T08:46:44.877+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "MySQL"..
+2025-06-28T08:46:44.877+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "NetApp"..
+2025-06-28T08:46:44.877+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "NetApp"..
+2025-06-28T08:46:44.878+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Network"..
+2025-06-28T08:46:44.878+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Network"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Notification Hub"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Notification Hub"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Policy"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Policy"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Portal"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Portal"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PostgreSQL"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PostgreSQL"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "PowerBI"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "PowerBI"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Private DNS"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Private DNS"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Purview"..
+2025-06-28T08:46:44.879+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Purview"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Recovery Services"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Recovery Services"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Redis Enterprise"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Redis Enterprise"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Relay"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Relay"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Resources"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Resources"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Search"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Search"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Security Center"..
+2025-06-28T08:46:44.880+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Security Center"..
+2025-06-28T08:46:44.881+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Sentinel"..
+2025-06-28T08:46:44.881+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Sentinel"..
+2025-06-28T08:46:44.881+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "ServiceBus"..
+2025-06-28T08:46:44.882+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "ServiceBus"..
+2025-06-28T08:46:44.884+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Service Fabric"..
+2025-06-28T08:46:44.884+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Service Fabric"..
+2025-06-28T08:46:44.884+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "SignalR"..
+2025-06-28T08:46:44.884+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "SignalR"..
+2025-06-28T08:46:44.885+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Spring Cloud"..
+2025-06-28T08:46:44.885+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Spring Cloud"..
+2025-06-28T08:46:44.885+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage"..
+2025-06-28T08:46:44.886+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage"..
+2025-06-28T08:46:44.886+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Storage Cache"..
+2025-06-28T08:46:44.886+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Storage Cache"..
+2025-06-28T08:46:44.887+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Stream Analytics"..
+2025-06-28T08:46:44.887+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Stream Analytics"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Subscription"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Subscription"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Synapse"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Synapse"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Traffic Manager"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Traffic Manager"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "VMware"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "VMware"..
+2025-06-28T08:46:44.888+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Data Sources for "Web"..
+2025-06-28T08:46:44.889+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: [DEBUG] Registering Resources for "Web"..
+2025-06-28T08:46:44.890+1000 [INFO]  provider.terraform-provider-azurerm_v4.34.0_x5: configuring server automatic mTLS: timestamp="2025-06-28T08:46:44.890+1000"
+2025-06-28T08:46:44.903+1000 [DEBUG] provider: using plugin: version=5
+2025-06-28T08:46:44.903+1000 [DEBUG] provider.terraform-provider-azurerm_v4.34.0_x5: plugin address: address=/tmp/plugin3075596936 network=unix timestamp="2025-06-28T08:46:44.902+1000"
+2025-06-28T08:46:44.945+1000 [ERROR] provider.terraform-provider-azurerm_v4.34.0_x5: Response contains error diagnostic: @caller=github.com/hashicorp/terraform-plugin-go@v0.26.0/tfprotov5/internal/diag/diagnostics.go:58 tf_provider_addr=registry.terraform.io/hashicorp/azurerm tf_rpc=Configure @module=sdk.proto diagnostic_detail="" diagnostic_severity=ERROR diagnostic_summary="`subscription_id` is a required provider property when performing a plan/apply operation" tf_proto_version=5.8 tf_req_id=61cde38a-05a4-d41e-52fd-96d622abfc58 timestamp="2025-06-28T08:46:44.945+1000"
+2025-06-28T08:46:44.945+1000 [ERROR] vertex "provider[\"registry.terraform.io/hashicorp/azurerm\"]" error: `subscription_id` is a required provider property when performing a plan/apply operation
+2025-06-28T08:46:44.945+1000 [WARN]  Planning encountered errors, so plan is not applyable
+2025-06-28T08:46:44.945+1000 [INFO]  backend/local: plan operation completed
+
+[0m[1m[31mPlanning failed.[0m[1m Terraform encountered an error while generating this plan.[0m
+
+[0m[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1m`subscription_id` is a required provider property when performing a plan/apply operation[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  with provider["registry.terraform.io/hashicorp/azurerm"],
+[31m│[0m [0m  on providers.tf line 14, in provider "azurerm":
+[31m│[0m [0m  14: provider "azurerm" [4m{[0m[0m
+[31m│[0m [0m
+[31m╵[0m[0m
+2025-06-28T08:46:44.965+1000 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2025-06-28T08:46:44.975+1000 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.34.0/linux_amd64/terraform-provider-azurerm_v4.34.0_x5 id=11093
+2025-06-28T08:46:44.975+1000 [DEBUG] provider: plugin exited
